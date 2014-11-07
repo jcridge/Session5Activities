@@ -13,9 +13,20 @@ $(document).bind('swiperight', function () {
 <body>
 
 <div data-role="page" id="pageone">
+  <div data-role="panel" id="testPanel" data-position="left" data-display="reveal">
+      <!-- panel content goes here -->
+      <ul>  
+            <li><a href="#pageone" title="Home">1</a></li>  
+            <li><a href="#pagetwo" title="Profile">2</a></li>  
+            <li><a href="#pagethree" title="Setting">3</a></li>  
+            <li><a href="#pagefour" title="Logout">4</a></li>  
+            <li><a href="#pagefive" title="Report">5</a></li>  
+      </ul>  
+  </div>
   <div data-role="header">
     <h1>Welcome To My Homepage</h1><br />
     <a href="#" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Go Back</a>
+    <span class="open left"><a href="#testPanel">X</a></span>
   </div>
 
   <div data-role="main" class="ui-content">
@@ -29,9 +40,20 @@ $(document).bind('swiperight', function () {
 </div> 
 
 <div data-role="page" id="pagetwo">
+    <div data-role="panel" id="testPanel" data-position="left" data-display="reveal">
+      <!-- panel content goes here -->
+      <ul>  
+            <li><a href="#pageone" title="Home">1</a></li>  
+            <li><a href="#pagetwo" title="Profile">2</a></li>  
+            <li><a href="#pagethree" title="Setting">3</a></li>  
+            <li><a href="#pagefour" title="Logout">4</a></li>  
+            <li><a href="#pagefive" title="Report">5</a></li>  
+      </ul>  
+  </div>
   <div data-role="header">
     <h1>Welcome To My Homepage</h1><br />
-    <a href="#" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Go Back</a>  
+    <a href="#" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Go Back</a>
+    <span class="open left"><a href="#testPanel">X</a></span>
   </div>
 
   <div data-role="main" class="ui-content">
@@ -45,20 +67,84 @@ $(document).bind('swiperight', function () {
 </div>
 
 <div data-role="page" id="pagethree">
+    <div data-role="panel" id="testPanel" data-position="left" data-display="reveal">
+      <!-- panel content goes here -->
+      <ul>  
+            <li><a href="#pageone" title="Home">1</a></li>  
+            <li><a href="#pagetwo" title="Profile">2</a></li>  
+            <li><a href="#pagethree" title="Setting">3</a></li>  
+            <li><a href="#pagefour" title="Logout">4</a></li>  
+            <li><a href="#pagefive" title="Report">5</a></li>  
+      </ul>  
+  </div>
   <div data-role="header">
     <h1>Welcome To My Homepage</h1><br />
     <a href="#" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Go Back</a>
+    <span class="open left"><a href="#testPanel">X</a></span>
   </div>
 
   <div data-role="main" class="ui-content">
-    <p>This is Page Three. If you click on the link below, it will take you to Page One.</p>
-    <a href="#pageone">Go to Page One</a>
+    <p>This is Page Three. If you click on the link below, it will take you to Page Four.</p>
+    <a href="#pagefour">Go to Page Four</a>
   </div>
 
   <div data-role="footer">
     <h1>Footer Text</h1>
   </div>
 </div> 
+
+<div data-role="page" id="pagefour">
+    <div data-role="panel" id="testPanel" data-position="left" data-display="reveal">
+      <!-- panel content goes here -->
+      <ul>  
+            <li><a href="#pageone" title="Home">1</a></li>  
+            <li><a href="#pagetwo" title="Profile">2</a></li>  
+            <li><a href="#pagethree" title="Setting">3</a></li>  
+            <li><a href="#pagefour" title="Logout">4</a></li>  
+            <li><a href="#pagefive" title="Report">5</a></li>  
+      </ul>  
+  </div>
+  <div data-role="header">
+    <h1>Welcome To My Homepage</h1><br />
+    <a href="#" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Go Back</a>
+    <span class="open left"><a href="#testPanel">X</a></span>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>This is Page Four. If you click on the link below, it will take you to Page Five.</p>
+    <a href="#pagefive">Go to Page Five</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+</div>
+  <div data-role="page" id="pagefive">
+      <div data-role="panel" id="testPanel" data-position="left" data-display="reveal">
+      <!-- panel content goes here -->
+      <ul>  
+            <li><a href="#pageone" title="Home">1</a></li>  
+            <li><a href="#pagetwo" title="Profile">2</a></li>  
+            <li><a href="#pagethree" title="Setting">3</a></li>  
+            <li><a href="#pagefour" title="Logout">4</a></li>  
+            <li><a href="#pagefive" title="Report">5</a></li>  
+      </ul>  
+  </div>
+  <div data-role="header">
+    <h1>Welcome To My Homepage</h1><br />
+    <a href="#" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back">Go Back</a>
+    <span class="open left"><a href="#testPanel">X</a></span>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>This is Page Five. If you click on the link below, it will take you to Page One.</p>
+    <a href="#pageone">Go to Page One</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+</div>  
 
 </body>
 </html>
